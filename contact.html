@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mountain View Resort | Contact</title>
+        <meta name="author" content="Julia Miciano">
+        <meta name="description" content="Mountain View Resort contact information">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header> 
+            <h1><a href="index.html">Mountain View Resort</a></h1>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img src="images/swiss-valley.jpg" alt="A photo of a Swiss valley" width="1440" height="560">
+
+
+        <main>
+            <section id="form">
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+                    <img src="images/swiss-peak.jpg" alt="A photo of the peak of the Swiss Alp surrounded with trees" width="350" height="455">
+
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                        <label for="full-name">Full Name<span class="required">*</span></label>
+                        <input type="text" name="full-name" id="full-name" required>
+            
+                        <label for="my-email">Email Address<span class="required">*</span></label>
+                        <input type="email" name="my-email" id="my-email" required>             
+
+                        <label for="my-phone">Phone<span class="required">*</span></label>
+                        <input type="tel" name="my-phone" id="my-phone" required>
+    
+                        <fieldset>
+                            <legend>Preferred Method of Contact</legend>
+                            <input type="radio" name="contact-prf" id="prf-email" checked>
+                            <label for="prf-email">Email</label>
+
+                            <input type="radio" name="contact-prf" id="prf-phone" checked>
+                            <label for="prf-phone">Phone</label>
+                        </fieldset>
+
+                        <label for="comments">Comments<span class="required">*</span></label>
+                        <textarea name="comments" id="comments" required></textarea>
+              
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                    </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Mountain View Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
